@@ -3,11 +3,126 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.play-icon {
+    width: 80px;
+}
 
-.sec-up, .sec-middle, .sec-down {
+.second-width {
+    width: 50%;
+}
+.flower-1 {
+    width: 50%;
+    padding-left: 20%;
+    border-radius: 50%;
+}
+.sec-up, .sec-middle, .support {
+    margin: 50px 150px;
+    display: flex;
+}
+.support {
+    margin: 50px 150px 0px;
+    display: flex;
+}
+.sec-down {
     margin: 50px 150px;
 }
 
-.play-icon {
-    width: 80px;
+.up-link {
+    margin-top: 50px;
+ }
+
+
+.contact-us {
+    text-decoration: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+
+.learn-more {
+    text-decoration: none;    
+    border: 2px solid rgb(0, 132, 255);
+    color: rgb(0, 132, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+.fa {
+    font-size: 30px;
+}
+.fa-pencil{
+    color: rgb(0, 195, 221);
+    border: 2px solid rgb(0, 195, 221);
+    border-radius: 10px;
+    padding: 10px;
+}
+.graphi {
+    color: rgb(0, 195, 221);
+    text-decoration: none;
+}
+.fa-desktop{
+    color: rgb(255, 71, 117);
+    border: 2px solid rgb(255, 71, 117);
+    border-radius: 10px;
+    padding: 10px;
+}
+.webdes, .webdev {
+    color: rgb(255, 71, 117);
+    text-decoration: none;    
+}
+.third-width {
+    width: 30%;
+    margin: 2%;
+    padding: 30px;
+    box-shadow: 0 0 20px rgb(221, 221, 221);
+    border-radius: 10px;
+}
+.sec-middle :hover {
+    background-color: cornsilk;
+}
+.down-sevices {
+    text-align: center;
+}
+.down-sevices p {
+    padding: 0 30%;
+}
+.part-a {
+    display: flex;
+}
+.sec-down .part-a {
+    text-align: center;
+    color: rgb(255, 71, 117);
+}
+.sec-down .part-a :hover {
+    background-color: rgb(255, 71, 117);
+    color: white;
+}
+
+.support a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+
+.fourth-width {
+    width: 20%;
+    margin: 2%;
+    padding: 40px;
+}
+.bottom{
+    background-color: grey;
+}
+.f-bottom{
+    background-color: rgb(48, 48, 48);
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;    
 }
