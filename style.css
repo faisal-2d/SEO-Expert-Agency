@@ -1,0 +1,13 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.sec-up, .sec-middle, .sec-down {
+    margin: 50px 150px;
+}
+
+.play-icon {
+    width: 80px;
+}
